@@ -8,6 +8,7 @@
     <div id="d2" style="display: none">2</div>
     <div id="d3" style="display: none">3</div>
     <div id="d4" style="display: none">4</div>
+    <div id="d404" style="display: none">不存在</div>
   </div>
 </template>
 
