@@ -20,7 +20,7 @@ if (div) {
   div.style.display = "block";
 }
 console.log(div);
-let history = window.document.querySelector(`#d${hashNum}`);
+let history = div;
 
 window.addEventListener("hashchange", function () {
   hash = window.location.hash;
@@ -35,5 +35,5 @@ window.addEventListener("hashchange", function () {
     div.style.display = "block";
   }
   history.style.display = "none";
-  history = window.document.querySelector(`#d${hashNum}`);
+  history = div;
 })
